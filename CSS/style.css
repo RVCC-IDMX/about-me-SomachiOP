@@ -1,0 +1,41 @@
+/*Changes the fonts, background and font*/ 
+body {
+    font-family: Gabarito;
+    background-color: #F5BC6C;
+    color: #2637F5;
+
+}
+
+/* heading properties*/
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: Pixelify Sans;
+    font-size: 40px;
+}
+
+img {
+height: 400px;
+width: 400px;
+}
+
+/* Resizes the orgiami img*/
+header > img {
+    height: 200px;
+    width: 200px;
+
+}
+header {
+    text-align: center;
+  
+}
+
+#hero, footer {
+    background-color: #A36A1A;
+    border: #76C3F5 5px solid;
+    text-align: center;
+    color: rgb(208, 213, 237);
+}
+#bio {
+    text-align: center;
+}
+
