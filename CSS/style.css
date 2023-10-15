@@ -3,7 +3,7 @@ body {
     font-family: Gabarito;
     background-color: #F5BC6C;
     color: #2637F5;
-
+    
 }
 
 /* heading properties*/
@@ -37,5 +37,6 @@ header {
 }
 #bio {
     text-align: center;
+    font-size: x-large;
 }
 
