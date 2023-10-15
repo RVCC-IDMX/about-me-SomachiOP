@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 
     font-family: Pixelify Sans;
     font-size: 40px;
+    text-decoration: underline;
+
 }
 
 img {
@@ -31,18 +33,29 @@ header {
 
 #hero, footer {
     background-color: #A36A1A;
-    border: #76C3F5 5px solid;
+    border: #76C3F5 6px solid;
     text-align: center;
     color: rgb(208, 213, 237);
     font-size: 20px;
 
 }
+
+/* Bio Sections */
 #bio {
     text-align: center;
-    font-size: x-large;
 }
 
+/*Hobbies */
 #hobbies {
 
     font-size: x-large;
+}
+
+#gallery {
+    border: #F5946C 14px solid ;
+    text-align: center;
+}
+ figcaption
+ {
+    text-decoration-style: wavy;
 }
