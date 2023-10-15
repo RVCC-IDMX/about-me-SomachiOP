@@ -34,9 +34,15 @@ header {
     border: #76C3F5 5px solid;
     text-align: center;
     color: rgb(208, 213, 237);
+    font-size: 20px;
+
 }
 #bio {
     text-align: center;
     font-size: x-large;
 }
 
+#hobbies {
+
+    font-size: x-large;
+}
