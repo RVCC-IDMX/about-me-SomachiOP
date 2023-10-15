@@ -43,6 +43,7 @@ header {
 /* Bio Sections */
 #bio {
     text-align: center;
+    font-size: 20px;
 }
 
 /*Hobbies */
@@ -52,10 +53,21 @@ header {
 }
 
 #gallery {
-    border: #F5946C 14px solid ;
+    border: #F5946C 14px solid;
     text-align: center;
+    font-size: 20px;
+
 }
  figcaption
  {
     text-decoration-style: wavy;
+}
+
+/*Excerpt*/
+#lit {
+  border: #F5946C 14px solid;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  max-width: 40rem;
+  margin: 0 auto;
 }
