@@ -61,6 +61,10 @@ header {
     margin: 0 auto;
 
 }
+#gallery img {
+    max-width: 100%;
+    
+}
  figcaption
  {
     text-decoration-style: wavy;
