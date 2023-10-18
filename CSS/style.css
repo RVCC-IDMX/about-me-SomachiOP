@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-img {
+#hero img {
 height: 400px;
 width: 400px;
 
@@ -38,7 +38,7 @@ header {
     text-align: center;
     color: rgb(208, 213, 237);
     font-size: 20px;
-
+    margin: 0 auto;
 }
 
 /* Bio Sections */
