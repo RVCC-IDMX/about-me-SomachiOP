@@ -15,23 +15,27 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-#hero img {
-height: 400px;
-width: 400px;
-
-}
-
 /* Resizes the orgiami img*/
 header > img {
     height: 200px;
     width: 200px;
 
+
 }
+
 header {
     text-align: center;
   
 }
 
+/* Hero */
+#hero img {
+height: 400px;
+width: 400px;
+max-width: 100%;
+}
+
+/*Style for #hero and footer*/
 #hero, footer {
     background-color: #A36A1A;
     border: #76C3F5 6px solid;
@@ -39,6 +43,7 @@ header {
     color: rgb(208, 213, 237);
     font-size: 20px;
     margin: 0 auto;
+    
 }
 
 /* Bio Sections */
@@ -52,7 +57,7 @@ header {
 
     font-size: x-large;
 }
-
+/*Style for #gallery elements*/
 #gallery {
     border: #F5946C 14px solid;
     text-align: center;
@@ -66,6 +71,7 @@ header {
     max-width: 100%;
 
 }
+/*Note: Does not show up*/
  figcaption
  {
     text-decoration-style: wavy;
