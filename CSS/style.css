@@ -36,6 +36,7 @@ max-width: 100%;
 }
 
 /*Style for #hero and footer*/
+/*margin does not affect container*/
 #hero, footer {
     background-color: #A36A1A;
     border: #76C3F5 6px solid;
@@ -43,6 +44,7 @@ max-width: 100%;
     color: rgb(208, 213, 237);
     font-size: 20px;
     margin: 0 auto;
+    max-width: 60rem;
     
 }
 
@@ -67,7 +69,7 @@ max-width: 100%;
     margin: 0 auto;
 
 }
-#gallery img {
+ img {
     max-width: 100%;
 
 }
