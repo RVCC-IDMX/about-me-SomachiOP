@@ -17,11 +17,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Resizes the orgiami img*/
 header > img {
-    height: 200px;
+    height:200px;
     width: 200px;
 
 
 }
+
 
 header {
     text-align: center;
@@ -59,6 +60,13 @@ max-width: 100%;
 
     font-size: x-large;
 }
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*Style for #gallery elements*/
 #gallery {
     border: #F5946C 14px solid;
