@@ -116,8 +116,11 @@ width: 400px;
 
 
 }
-
-
+figure > img {
+ /* Limits height of img to 70% of 
+    container or less */
+    max-height:80%;
+    margin: auto 0; 
 }
     figcaption {
        display: flex;
@@ -141,12 +144,15 @@ width: 400px;
         
     }
 }
+
 /* Larger Screen Rules */
 @media screen and (min-width: 1600px) {
 
   #gallery {
 
-   
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr; 
+   display: none;
   }
 
  
