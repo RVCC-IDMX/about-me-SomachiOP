@@ -150,7 +150,70 @@ to a vistor-->
 
     </section>
 
+    <section id="contact">
+        <h2>Contact Me:</h2>
+        <form id="contactform" name = "contactform">
 
+            <fieldset>
+                <legend>Contact Form</legend>
+                <div id="formElements">
+                <!-- Name -->
+                 <label for="name"> Name (Required)</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email -->
+                <label for="email">Email (Required)</label>
+                <input type= "email" id="email" name="email"required>
+
+                <!-- Phone -->
+                <label for="number">Phone Number (optional)</label>
+                <input type= "tel" id="number" name="phone#">
+
+                <!-- Phone Type --> 
+                <label for="phonetype" id="">Phone Type (optional)</label>
+                <select id="phonetype"name="phonetype">
+                    <!-- value: what server gets to acknowledge <option>
+                    -->
+                    <option value=""selected>Select phone type:</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="work">Work</option>
+                    <option value="home">Home</option>
+                </select>
+
+                <!-- Message -->
+
+                <label for="message">Message (optional)</label>
+                <textarea id="message" cols="30" rows="10"placeholder="Begin message"></textarea>
+                <!-- Reply -->
+
+                <!-- Unaffected by grid -->
+                <fieldset>
+                    <legend>Would you like a reply?</legend>
+                        <ul>
+                            
+                            <li>
+
+                                <input type="radio"id="message-yes" name="reply">
+                                <label for="message-yes">Yes, a reply would be nice</label>
+                            </li>
+                            
+                            <li>
+                                <input type="radio"id="message-no"name="reply" checked>
+                                <label for="message-no">No, thats alright</label>
+                                
+                                
+                            </li>
+                        </ul>
+                </fieldset>
+                </div>
+                
+            </fieldset>
+            
+
+        </form>
+
+    </section>
+                         
 </main>
 
 <footer>
