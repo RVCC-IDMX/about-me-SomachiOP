@@ -20,7 +20,7 @@ h2 {
     margin: 0.02rem;
 }
 
-/* Header */
+/*--------------------Header--------------------*/
 
 /* Resizes the orgiami img*/
 header > img {
@@ -36,7 +36,7 @@ header {
   
 }
 
-/* Hero */
+/*--------------------Hero----------------------*/
 
 #hero img {
 height: 400px;
@@ -57,14 +57,14 @@ width: 400px;
     
 }
 
-/* Bio */
+/*---------------------Bio----------------------*/
 
 #bio {
     text-align: center;
     font-size: 20px;
 }
 
-/*Hobbies */
+/*--------------------Hobbies--------------------*/
 
 #hobbies {
     
@@ -111,7 +111,7 @@ width: 400px;
  }
 
 
- /* Video */
+ /* -------------------Video-------------------------*/
 
  /* Video needs a container with 16:9 
  Aspect Ratio to scale for the browser*/
@@ -141,16 +141,26 @@ padding-top: 25px;
     
 
 
-/* Contact Form */
+/* ------------------Contact Form -------------------*/
 
-#contact div {
+#formElements{
     
     display: grid;
-}
-fieldset {
+    row-gap: 0.5em;
 
-    
+
 }
+#contact {
+
+    padding: 2rem;
+    max-width: 650px;
+    margin: 0 auto;
+
+}
+
+
+
+
 
  /*Tablet Media Rules*/
 
@@ -217,6 +227,7 @@ figure > img {
   #video {
     top: 100px;
   }
+  
   .videowrapper iframe {
     /* Will position the element relative to parent container */
         position: absolute;
