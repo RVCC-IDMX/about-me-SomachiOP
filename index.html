@@ -142,7 +142,7 @@ to a vistor-->
         <h2>A Short Video</h2>
 
         <div class="videowrapper">
-        
+                    
          <iframe src="https://www.youtube.com/embed/V70Bo5tA6f0?si=IwQSpmUyORAg7OpF"
          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
          encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -156,21 +156,36 @@ to a vistor-->
 
             <fieldset>
                 <legend>Contact Form</legend>
+
                 <div id="formElements">
-                <!-- Name -->
+
+                <div class="formwrapper">
+                
+            <!-- Name -->
+                <p class="contactItem">
                  <label for="name"> Name (Required)</label>
                 <input type="text" id="name" name="name" required>
+                </p>
 
-                <!-- Email -->
+               
+              <!-- Email -->
+                <p class="contactItem">
+             
                 <label for="email">Email (Required)</label>
                 <input type= "email" id="email" name="email"required>
-
-                <!-- Phone -->
+                </p>
+            <!-- Phone -->
+                <p class="contactItem">
+             
                 <label for="number">Phone Number (optional)</label>
                 <input type= "tel" id="number" name="phone#">
+                </p>
 
-                <!-- Phone Type --> 
-                <label for="phonetype" id="">Phone Type (optional)</label>
+              
+            <!-- Phone Type --> 
+                <p class="contactItem">
+               
+                <label for="phonetype">Phone Type (optional)</label>
                 <select id="phonetype"name="phonetype">
                     <!-- value: what server gets to acknowledge <option>
                     -->
@@ -178,13 +193,19 @@ to a vistor-->
                     <option value="mobile">Mobile</option>
                     <option value="work">Work</option>
                     <option value="home">Home</option>
+               
                 </select>
+            </p>
 
-                <!-- Message -->
-
+                 <!-- Message -->
+                <p>
                 <label for="message">Message (optional)</label>
-                <textarea id="message" cols="30" rows="10"placeholder="Begin message"></textarea>
-                <!-- Reply -->
+                <textarea id="message" cols="30" rows="10"placeholder="Begin message..."></textarea>
+                <!-- Reply --></p>
+               
+            
+
+            </div>
 
                 <!-- Unaffected by grid -->
                 <fieldset>
@@ -194,6 +215,11 @@ to a vistor-->
                             <li>
 
                                 <input type="radio"id="message-yes" name="reply">
+
+
+
+
+
                                 <label for="message-yes">Yes, a reply would be nice</label>
                             </li>
                             
@@ -207,7 +233,7 @@ to a vistor-->
                 </fieldset>
 
                 <!-- Submit -->
-                <input type="submit" name="submit" id="submit">
+                <button type="submit" name="submit">Submit Form</button>
 
                 </div>
                 

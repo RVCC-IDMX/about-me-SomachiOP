@@ -154,13 +154,46 @@ padding-top: 25px;
 
     padding: 2rem;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0 auto;     
 
 }
 
 fieldset {
-   border:  
+   border: 10px solid #F5946C;
+  border-style: inset;
+   
 }
+legend {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+
+}
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: 0.5em;
+    font-size: 1rem;
+
+}
+
+#contact ul {
+
+    list-style: none;
+    padding: 0px;
+
+}
+li {
+    margin: 0.5em;
+
+}
+
+#contact button {
+
+    background-color:brown;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    justify-self: center;
+}
+
 
 
 
@@ -205,7 +238,7 @@ figure > img {
     }
 }
 
-/* Larger Screen Rules */
+/* --------------Larger Screen Rules ---------------*/
 @media screen and (min-width: 1300px) {
 
   #gallery {
@@ -234,6 +267,7 @@ figure > img {
    padding-top: 20px;
    padding-bottom: 30%;
    /* top/bottom | left/right */
+   /* Sets left/right margins to 25% of container's width */
    margin: auto 25%;
   
    }
@@ -248,7 +282,31 @@ figure > img {
         width: 100%;
         margin: 0 auto;
         
-        }
+    }
     
+    .formwrapper {
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        max-width: 100%;
+        
+        
+       
+        
+        
 
     }
+
+    p  {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 100px;
+       
+        
+
+    }
+}
