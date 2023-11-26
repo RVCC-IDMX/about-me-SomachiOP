@@ -161,6 +161,8 @@ padding-top: 25px;
 fieldset {
    border: 10px solid #F5946C;
   border-style: inset;
+ 
+
    
 }
 legend {
@@ -190,8 +192,8 @@ li {
 
     background-color:brown;
     color: rgb(255, 255, 255);
-    width: 400px;
-    justify-self: center;
+    max-width: 400px;
+    justify-self: stretch;
 }
 
 
@@ -289,8 +291,13 @@ figure > img {
         align-self: center;
         justify-self: center;
         box-sizing: border-box;
-        
+
 
     }
-      
+    
+      #contact button {
+
+        margin: 0 25% 0 25%;
+        justify-self: stretch;
 }
+      }
