@@ -193,7 +193,8 @@ li {
     background-color:brown;
     color: rgb(255, 255, 255);
     max-width: 400px;
-    justify-self: stretch;
+    width: 50%;
+    justify-self: center;
 }
 
 
@@ -290,7 +291,7 @@ figure > img {
         display: grid;
         align-self: center;
         justify-self: center;
-        box-sizing: border-box;
+        
 
 
     }
@@ -300,4 +301,9 @@ figure > img {
         margin: 0 25% 0 25%;
         justify-self: stretch;
 }
+
+
+
+
+
       }
