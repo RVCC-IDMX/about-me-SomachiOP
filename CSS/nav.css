@@ -43,14 +43,24 @@ padding: 2vw;
     font-size: 1.5em;
 }
 /* navigation list */
+.navbar-links li {
 
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
-
+.navbar-links a {
+    color: whitesmoke;
+    background-attachment: white;
+    margin: 1rem 1.25rem; 
+   
+}
 
 
 

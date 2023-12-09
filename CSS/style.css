@@ -154,14 +154,14 @@ padding-top: 25px;
 
     padding: 2rem;
     max-width: 400px;
-    margin: 0 auto;     
+    margin: 0 auto;   
 
 }
 
 fieldset {
    border: 10px solid #F5946C;
   border-style: inset;
- 
+ margin: 0 auto;
    
 }
 legend {
@@ -178,6 +178,7 @@ legend {
 display: grid;
 grid-template-columns: 1fr 1fr;
 column-gap: 2em;
+
 
 }
 
@@ -271,7 +272,7 @@ figure > img {
     
   }
   #gallery h2 {
-    /***Note Ask Teacher about this fix */
+   
     grid-column: 1/-1;
   }
  
