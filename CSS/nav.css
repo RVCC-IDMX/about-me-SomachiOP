@@ -31,8 +31,14 @@ padding: 2vw;
 }
 
 /* logo */
-
-
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 7vw;
+    width: 7vw;
+}
 
 /* navigation list */
 
