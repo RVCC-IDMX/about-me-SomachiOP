@@ -185,6 +185,7 @@ column-gap: 2em;
 
   width: 100%;  
 }
+
 #contact input, #contact textarea, #contact select, #contact button {
     padding: 0.5em;
     font-size: 1rem;
@@ -282,6 +283,7 @@ figure > img {
 
    padding-top: 20px;
    padding-bottom: 30%;
+
    /* top/bottom | left/right */
    /* Sets left/right margins to 25% of container's width */
    margin: auto 25%;

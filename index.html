@@ -14,12 +14,35 @@
 </head>
 
 <body>
+
     <!--body element contians all content shown 
 to a vistor-->
+
 <header> 
+
     <!-- the header shows logo and page title -->
-    <img src="img/BOB.svg" alt="Blue origami logo"/>
-    <h1>Web Dev I - Online!</h1>
+
+ <nav class="navbar">
+    <div class= "logo">
+        
+        <img 
+        src="img/BOB.svg" 
+        alt="Blue origami logo"
+        />
+        <h1 class="logo-title">Web Dev I - Online!</h1></div>
+    <div="navbar-links">
+
+
+        <ul>
+            
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#lit">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+ </nav>
 
 </header>
 
@@ -160,17 +183,17 @@ to a vistor-->
                 <div id="formElements">
 
               
-                <div id= "contactwrapper">
+                <div id="contactwrapper">
             <!-- Name -->
-               <div>
+            <div>
                 <label for="name"> Name (Required)</label>
                 <input type="text" id="name" name="name" required>
-                </div>
+            </div>
 
                
               <!-- Email -->
              
-              <div>
+            <div>
                 <label for="email">Email (Required)</label>
                 <input type= "email" id="email" name="email"required>
              </div>
@@ -180,7 +203,7 @@ to a vistor-->
                     <label for="number">Phone Number (optional)</label>
                 <input type= "tel" id="number" name="phone#">
                
-                </div>
+            </div>
               
 
               
