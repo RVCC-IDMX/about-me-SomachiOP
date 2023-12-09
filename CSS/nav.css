@@ -39,7 +39,9 @@ padding: 2vw;
     height: 7vw;
     width: 7vw;
 }
-
+.logo h1 {
+    font-size: 1.5em;
+}
 /* navigation list */
 
 
