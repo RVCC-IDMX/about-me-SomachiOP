@@ -158,16 +158,20 @@ padding-top: 25px;
   }
   
   fieldset {
+    position: ;
    border: 10px solid #F5946C;
    border-style: inset;
    margin: 0 auto;
+   box-sizing: border-box;
+   
    
   }
   legend {
     background-color: brown;
     color: rgb(255, 255, 255);
-    padding: 0.5em;
+    padding: 1rem;
     margin-left: -4em;
+
   
   }
   
