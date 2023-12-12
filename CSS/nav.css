@@ -22,7 +22,7 @@ padding: 2vw;
 /* navbar */
 
 .navbar {
-    background-color: grey;
+    background-color: rgb(96, 68, 33);
     color: whitesmoke;
     display: flex;
     flex-direction: column;

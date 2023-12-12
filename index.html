@@ -127,38 +127,22 @@ to a vistor-->
     </section>
     <article id="lit"> 
         <h2>
-            An Excerpt From the Life of Samuel Johnson
+            CSS Animations
         </h2>
         <div>
-            <p>His Vanity of Human Wishes has less of common life, 
-                but more of a philosophick dignity than his London. More readers, therefore,
-                 will be delighted with the pointed spirit of London, than with the profound
-                  reflection of The Vanity of Human Wishes. Garrick, for instance, 
-                observed in his sprightly manner, with more vivacity than regard to just discrimination, 
-                as is usual with wits: 'When Johnson lived much with the Herveys, 
-                and saw a good deal of what was passing in life, he wrote his London, which is lively and easy. 
-                When he became more retired, he gave us his Vanity of Human Wishes, which is as hard as Greek. 
-                Had he gone on to imitate another satire, it would have been as hard as Hebrew.'</p>
+           <p> CSS Animations are a great way for you to add spark and design to your  website. If you have a creative edge,
+             you can convey that through CSS Animations. To animate in CSS, we must have a proper understanding of the CSS 
+             property transition.  Transitions are a set of properties that allow for smooth animation and movement in between transforms.
+              The CSS transition properties available to us are the most important are transition-property, 
+             -duration, timing-function, and -delay. Transition-property verifies the CSS property which will be affected by
+              this transition. This could be a button with a :hover feature that you decide to make, and if you apply a back
+              ground-color, this will ensure the button with the rule of the transition set on it. Transition-duration decide
+              s how long it will take for this transition to occur, transition-timing-function will set the acceleration cur
+              ve for the animation, (e.g. ease, ease-in, ease-out), and transition-delay will model how long it will take to
+            start. Transform is how change the state of an element in order to give off the illusion of animation. We can use 
+            translateX/Y/Z, which will move the element to the right, the left, or forward and backwards in 3d space, or we can
+             use rotate. This function will rotate the element based on a angular unit (deg or rad) </p>
 
-           <p>Garrick being now vested with theatrical power by being manager of Drury-lane theatre, he kindly an generously made use of it to bring out Johnson's tragedy, 
-            which had been long kept back for want of encouragement. But in this benevolent purpose he met with no small difficulty from the temper of Johnson,
-            which could not brook that a drama which he had formed with much study, and had been obliged to keep more than the nine years of Horace, 
-            should be revised and altered at the pleasure of an actor. Yet Garrick knew well, that without some alterations it would not be fit for the stage. 
-            A violent dispute having ensued between them, Garrick applied to the Reverend Dr. Taylor to interpose. Johnson was at first very obstinate.
-            'Sir, (said he) the fellow wants me to make Mahomet run mad, that he may have an opportunity of tossing his hands and kicking his heels.
-            ' He was, however, at last, with difficulty, prevailed on to comply with Garrick's wishes, so as to allow of some changes; but still there were not enough.</p>
-
-           <p>Dr. Adams was present the first night of the representation of Irene, and gave me the following account: 'Before the curtain drew up, there were catcalls whistling,
-           which alarmed Johnson's friends. The Prologue, which was written by himself in a manly strain, soothed the audience, and the play went off tolerably, till 
-           it came to the conclusion, when Mrs. Pritchard, the heroine of the piece, was to be strangled upon the stage, and was to speak two lines with the bowstring 
-            round her neck. The audience cried out "Murder! Murder!" She several times attempted to speak; but in vain. At last she was obliged to go off the stage alive.
-           ' This passage was afterwards struck out, and she was carried off to be put to death behind the scenes, as the play now has it. The Epilogue, as Johnson informed
-           me, was written by Sir William Yonge. I know not how his play came to be thus graced by the pen of a person then so eminent in the political world.</p>
-
-           <p>Notwithstanding all the support of such performers as Garrick, Barry, Mrs. Cibber, Mrs. Pritchard, and every advantage of dress and decoration, the tragedy
-             of Irene did not please the publick. Mr. Garrick's zeal carried it through for nine nights, so that the authour had his three nights' profits; 
-             and from a receipt signed by him, now in the hands of Mr. James Dodsley, it appears that his friend Mr. Robert Dodsley gave him one hundred pounds
-              for the copy, with his usual reservation of the right of one edition.</p>
         </div>
 
     </article>
@@ -180,7 +164,7 @@ to a vistor-->
         <h2>Contact Me:</h2>
         <form id="contactform" name= "contactform" method="post" netlify>
 
-            <fieldset>
+            <fieldset id="field_1">
                 <legend class="contactlegend">Contact Form</legend>
 
                 <div id="formElements">
@@ -189,22 +173,22 @@ to a vistor-->
                 <div id="contactwrapper">
             <!-- Name -->
                 <div>
-                    <label for="name"> Name (Required)</label>
-                    <input type="text" id="name" name="name" required>
+                    
+                    
                 </div>
 
                
               <!-- Email -->
              
-                <div>
-                    <label for="email">Email (Required)</label>
-                    <input type= "email" id="email" name="email"required>
+                <div class="contact_1">
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                    <input type= "email" id="email" name="email"required placeholder="Email">
                 </div>
             <!-- Phone -->
                 
                 <div>
-                    <label for="number">Phone Number (optional)</label>
-                    <input type= "tel" id="number" name="phone#">
+                    
+                 
                
                 </div>
               
@@ -212,8 +196,8 @@ to a vistor-->
               
             <!-- Phone Type --> 
                 
-                <div>
-                    <label for="phonetype">Phone Type (optional)</label>
+                <div class= "contact_2">
+                    <input type= "tel" id="number" name="phone#" placeholder="Phone Number">
                     <select id="phonetype"name="phonetype">
                     <!-- value: what server gets to acknowledge <option>
                     -->
@@ -228,14 +212,14 @@ to a vistor-->
                 </div>
             <!-- Message -->
               
-                    <label for="message">Message (optional)</label>
+                   
                     <textarea id="message" cols="30" rows="10"placeholder="Begin message..."></textarea>
                 
                </div>
             <!-- Reply -->
 
                 <!-- Unaffected by grid -->
-                <fieldset>
+                <fieldset class="field_2">
                     <legend class="replylegend">Would you like a reply?</legend>
                         <ul>
                             

@@ -2,7 +2,7 @@
 body {
     font-family: Gabarito;
     background-color: #F5BC6C;
-    color: blue;
+    color: rgb(42, 42, 253);
     
 }
 
@@ -48,7 +48,7 @@ max-width: 100%;
 /*margin does not affect container*/
 #hero, footer {
     background-color: #A36A1A;
-    border: #76C3F5 6px solid;
+    border:  rgb(96, 68, 33) 6px solid;
     text-align: center;
     color: rgb(208, 213, 237);
     font-size: 20px;
@@ -157,15 +157,20 @@ padding-top: 25px;
   
   }
   
-  fieldset {
-
+ fieldset {
+   position: relative;
    border: 10px solid #F5946C;
    border-style: inset;
    margin: 0 auto;
    box-sizing: border-box;
+   width: 100%;
+  
    
-   
+
   }
+
+
+  
   legend {
     background-color: brown;
     color: rgb(255, 255, 255);
@@ -180,7 +185,7 @@ padding-top: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2em;
-    
+    row-gap: 2em;
     
     }
     
@@ -192,10 +197,44 @@ padding-top: 25px;
     #contact input, #contact textarea, #contact select, #contact button {
         padding: 0.5em;
         font-size: 1rem;
-    
+   
+
     }
-    
+    .contact_1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: end;
+        row-gap: 1em;
+    }
+    .contact_1 input {
+        width: 70%;
+    }
+
+    .contact_2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr; 
+        justify-items: end;
+        row-gap: 1em;
+       
+      
+    }
+
+    .contact_2 input, .contact_2 select {
+
+        width: 70%;
+    }
   
+   #phonetype {
+    width: 70%;
+   }
+    #contact textarea {
+        width: 75%;
+       justify-self: end;
+
+    }
+   
+
   #contact ul {
   
     list-style: none;
@@ -208,14 +247,14 @@ padding-top: 25px;
   }
   
   #contact button {
-  
+
     background-color:brown;
     color: rgb(255, 255, 255);
     max-width: 400px;
-    justify-self: stretch;
+    margin: 0 120px;
   }
   
-  
+
   
   
 
