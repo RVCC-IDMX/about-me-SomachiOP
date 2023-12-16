@@ -196,7 +196,7 @@ padding-top: 25px;
     
     #contact input, #contact textarea, #contact select, #contact button {
         padding: 0.5em;
-        font-size: 1rem;
+        font-size: 0.75;
    
 
     }
@@ -214,7 +214,7 @@ padding-top: 25px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr; 
-        justify-items: end;
+        justify-items: center;
         row-gap: 1em;
        
       
@@ -222,7 +222,7 @@ padding-top: 25px;
 
     .contact_2 input, .contact_2 select {
 
-        width: 70%;
+        width: 90%;
     }
   
    #phonetype {
