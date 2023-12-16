@@ -164,6 +164,7 @@ padding-top: 25px;
    margin: 0 auto;
    box-sizing: border-box;
    width: 100%;
+   min-width: 50px;
   
    
 
@@ -231,6 +232,8 @@ padding-top: 25px;
     #contact textarea {
         width: 75%;
        justify-self: end;
+       margin-top: 20px;
+       margin-bottom: 4px;
 
     }
    
